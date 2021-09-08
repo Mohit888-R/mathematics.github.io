@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    background-color: blue;
+} */
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* 
+.header1 {
+    border: 1px solid black;
+} */
+
+.logo {
+    display: inline-flex;
+    font-size: 35px;
+    color: blueviolet;
+    padding: 30px;
+}
+
+.searchbox1 {
+    /* background-color: cadetblue; */
+    padding: 10px;
+    color: blueviolet;
+}
+
+.searchbox {
+    display: inline-flex;
+    margin-left: 400px;
+    width: 300px;
+    height: 40px;
+    background: linear-gradient(rgba(255, 255, 0, 0.486), greenyellow);
+    border: 1px solid red;
+}
+
+.header2 {
+    margin-top: -80px;
+    padding: 30px;
+    /* border: 1px solid black; */
+    background-color: orange;
+}
+
+.header2 li {
+    display: inline;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.span {
+    font-size: 30px;
+    color: blue;
+}
+
+.header2 li a {
+    text-decoration: none;
+    color: blueviolet;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content {
+    margin-top: 20px;
+    /* border: 1px solid blue; */
+}
+
+.content1 {
+    padding: 50px;
+    color: blueviolet;
+    background-color: greenyellow;
+}
+
+.content1 h3 {
+    font-size: 40px;
+}
+
+.content1 p {
+    color: rgba(8, 8, 8, 0.692);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content2 {
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+.goto {
+    display: inline-block;
+    width: 40%;
+    margin-right: 30px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid greenyellow;
+}
+
+.goto li a {
+    text-decoration: none;
+    color: rgba(34, 34, 190, 0.897);
+}
+
+.whyus {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    justify-content: start;
+    padding-top: 40px;
+    border-radius: 30px;
+    border: 1px solid greenyellow;
+}
+
+.goto,
+.whyus h1 {
+    color: blueviolet;
+}
+
+.whyus li a {
+    text-decoration: none;
+    color: rgba(34, 34, 190, 0.897);
+}
+
+
+/* .goto {
+    float: left;
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.whyus {
+    float: right;
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 20px;
+} */
+
+.footer {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(yellow, orange);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 20px;
+}
